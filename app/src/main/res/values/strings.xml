@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EksporImpor</string>
+    <string-array name="port_location">
+        <item>Jakarta</item>
+        <item>Medan</item>
+        <item>Semarang</item>
+        <item>Surabaya</item>
+        <item>Makassar</item>
+    </string-array>
+    <string name="spiner_header">choose location</string>
+</resources>
