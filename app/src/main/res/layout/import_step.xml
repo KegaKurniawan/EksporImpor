@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Langkah-langkah Import"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="1. Surat-surat yang dibutuhkan"
+        android:id="@+id/bPaper"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="2. Pembuatan Pemberitahuan Import Barang"
+        android:id="@+id/bPib"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="3. Daftar PPJK"
+        android:id="@+id/bPpjk"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="4. Setor biaya pembuatan PIB"
+        android:id="@+id/bPayPib"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="5. Pemberitahuan Jalur Barang"
+        android:id="@+id/bLine"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="6. Lapor ke pihak Terminal Container"
+        android:id="@+id/bReport"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="7. Bayar sewa gudang"
+        android:id="@+id/bPayWarehose"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:text="8. Proses pengeluaran barang"
+        android:id="@+id/bExit"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

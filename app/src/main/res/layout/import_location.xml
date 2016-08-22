@@ -6,7 +6,7 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerLocation"
         android:layout_gravity="center_horizontal"
         android:spinnerMode="dropdown"
         android:entries="@array/port_location"
